@@ -1,0 +1,27 @@
+/* FILEPATH: /c:/xampp/htdocs/Tugas Web E-Gov/style.css */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  margin: 0;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/WEB-PROFIL-tanpa-nama.jpg);
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
