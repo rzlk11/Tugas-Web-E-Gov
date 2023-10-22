@@ -9,7 +9,7 @@ header {
 }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/WEB-PROFIL-tanpa-nama.jpg);
+    url(../images/WEB-PROFIL-tanpa-nama.jpg);
   height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
