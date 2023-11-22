@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
+.navbar {
   background-color: #007bff;
   margin: 0;
 }
@@ -16,7 +16,7 @@ header {
   background-size: cover;
 }
 
-.card.attr{
+.card.attr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -28,4 +28,9 @@ header {
 
 .card-img-top {
   height: 20vh;
-} 
+}
+
+.card-img-overlay {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 86%);
+}
