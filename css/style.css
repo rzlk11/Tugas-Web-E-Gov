@@ -48,3 +48,30 @@ body {
   max-width: 250px;
   text-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    height: 100vh;
+  }
+  .card.attr {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    height: 30vh;
+  }
+  .card-img-overlay {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 86%);
+  }
+  .img-layanan {
+    width: 100%;
+    height: 30vh;
+  }
+  .layanan{
+    max-width: 40vh;
+  }
+  .isi-berita {
+    max-width: 50px;
+  }
+  
+}
