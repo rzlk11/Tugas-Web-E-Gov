@@ -45,7 +45,8 @@ body {
 }
 
 .isi-berita {
-  max-width: 40vh;
+  max-width: 50vh;
+  text-wrap: wrap;
 }
 
 .img-header {
